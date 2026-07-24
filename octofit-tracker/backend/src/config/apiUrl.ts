@@ -1,3 +1,7 @@
+import dotenv from 'dotenv';
+
+dotenv.config();
+
 const codespaceName = process.env.CODESPACE_NAME;
 
 export const apiBaseUrl = codespaceName
